@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+  }
+
+
+  #data-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 24px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  
+
+  .sensor-icon{
+    width: 100px; 
+    vertical-align: middle; 
+    height: 100px;
+  }
+
+  #data-czas{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 164px; 
+  }
+
+  #czas {
+    margin-top: 12px;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #data {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+
+  #temperature-outside, #temperature-inside, #current-production{
+    margin-top: 40vh;
+    font-size: 65px;
+    padding: 5px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  
+  #temperature-outside{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 370px;
+  }
+
+
+  #temperature-inside{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 370px;
+  }
+
+  #current-production{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 370px;
+  }
+
+  
